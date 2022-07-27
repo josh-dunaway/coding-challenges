@@ -19,5 +19,4 @@ def lengthOfLongestSubstring(s: str) -> int:
             max_length = max(max_length, right - left + 1)
         tracked_chars[ch] = right
     return max_length
-
-print(lengthOfLongestSubstring('pwwkew'))
+print(lengthOfLongestSubstring('abcabca'))
